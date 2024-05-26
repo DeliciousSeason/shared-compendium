@@ -6,7 +6,7 @@ A Foundry VTT module to share Homebrew Data between worlds via compendia.
 
 1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
 2. Click the `Install Module` button.
-3. Paste the Module's [Manifest URL](https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.1/module.json)
+3. Paste the Module's [Manifest URL](https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.2/module.json)
    into the `Manifest URL` field.
 4. Click the `Install` button.
 

@@ -1,12 +1,12 @@
-# My Shared Compendia
+# Shared Compendium
 
-A Foundry VTT module to share Data between worlds via compendia.
+A Foundry VTT module to share Homebrew Data between worlds via compendia.
 
 ## Installation
 
 1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
 2. Click the `Install Module` button.
-3. Paste the Module's [Manifest URL](https://github.com/stschoelzel/My-Shared-Compendia/releases/download/v1.2.0/module.json)
+3. Paste the Module's [Manifest URL](https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.1/module.json)
    into the `Manifest URL` field.
 4. Click the `Install` button.
 
@@ -30,24 +30,6 @@ A Foundry VTT module to share Data between worlds via compendia.
 ### Unlock your Compendia!
 
 _Remember_ that you need to unlock your compendia to be able to add things to them.
-
-## Default Setup
-
-This module comes with 13 Default compendia:
-
-- `Actors (shared)` ([Actor](https://foundryvtt.com/article/actors/))
-- `Adventures (shared)` (Adventures - documentation pending)
-- `Classes (shared)` ([Item](https://foundryvtt.com/article/items/))
-- `Feats (shared)` ([Item](https://foundryvtt.com/article/items/))
-- `Items (shared)` ([Item](https://foundryvtt.com/article/items/))
-- `Journal Entries (shared)` ([JournalEntry](https://foundryvtt.com/article/journal/))
-- `Macros (shared)` ([Macro](https://foundryvtt.com/article/macros/))
-- `Monsters (shared)` ([Actor](https://foundryvtt.com/article/actors/))
-- `Playlists (shared)` ([Playlist](https://foundryvtt.com/article/playlists/))
-- `Roll Tables (shared)` ([RollTable](https://foundryvtt.com/article/roll-tables/))
-- `Scenes (shared)` ([Scene](https://foundryvtt.com/article/scenes/))
-- `Spells (shared)` ([Item](https://foundryvtt.com/article/items/))
-- `Subclasses (shared)` ([Item](https://foundryvtt.com/article/items/))
 
 ## Customize
 

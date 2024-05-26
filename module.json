@@ -1,0 +1,77 @@
+{
+  "id": "shared-compendium",
+  "title": "Shared Compendium",
+  "description": "Creates set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
+  "authors": [
+    {
+      "name": "René Weiberlenn",
+	  "url": "https://www.visonia.de"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "monsters",
+      "system": "dnd5e",
+      "label": "Monsters",
+      "path": "./packs/monsters.db",
+      "module": "shared-compendium",
+      "type": "Actor"
+    },
+    {
+      "name": "visonia-items",
+      "system": "dnd5e",
+      "label": "Visonia Items",
+      "path": "./packs/visonia-items.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+	{
+      "name": "visonia-background",
+      "system": "dnd5e",
+      "label": "Visonia Background",
+      "path": "./packs/visonia-background.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+	{
+      "name": "enlightened-races",
+      "system": "dnd5e",
+      "label": "Enlightened Races",
+      "path": "./packs/enlightened-races.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+	{
+      "name": "enlightened-traits",
+      "system": "dnd5e",
+      "label": "Enlightened Traits",
+      "path": "./packs/enlightened-traits.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+	{
+      "name": "enlightened-classes",
+      "system": "dnd5e",
+      "label": "Enlightened Classes",
+      "path": "./packs/enlightened-classes.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+    {
+      "name": "visonia-spells",
+      "system": "dnd5e",
+      "label": "Visonia Spells",
+      "path": "./packs/visonia-spells.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    }
+  ],
+  "url": "https://www.visonia.de",
+  "download": "",
+  "manifest": ""
+}

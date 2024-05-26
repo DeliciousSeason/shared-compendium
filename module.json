@@ -8,7 +8,7 @@
 	  "url": "https://www.visonia.de"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "9",
     "verified": "12"
@@ -72,6 +72,6 @@
     }
   ],
   "url": "https://www.visonia.de",
-  "download": "",
-  "manifest": ""
+  "download": "https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.1/shared-compendium.zip",
+  "manifest": "https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.1/module.json"
 }

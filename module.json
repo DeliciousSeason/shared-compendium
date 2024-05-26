@@ -1,5 +1,5 @@
 {
-  "id": "shared-compendium",
+  "id": "sharedcompendium",
   "title": "Shared Compendium",
   "description": "Creates set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
   "authors": [

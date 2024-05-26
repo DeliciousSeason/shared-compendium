@@ -5,10 +5,10 @@
   "authors": [
     {
       "name": "René Weiberlenn",
-	  "url": "https://www.visonia.de"
+      "url": "https://www.visonia.de"
     }
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "9",
     "verified": "12"
@@ -23,6 +23,22 @@
       "type": "Actor"
     },
     {
+      "name": "items",
+      "system": "dnd5e",
+      "label": "Items",
+      "path": "./packs/items.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+    {
+      "name": "spells",
+      "system": "dnd5e",
+      "label": "Spells",
+      "path": "./packs/spells.db",
+      "module": "shared-compendium",
+      "type": "Item"
+    },
+    {
       "name": "visonia-items",
       "system": "dnd5e",
       "label": "Visonia Items",
@@ -30,7 +46,7 @@
       "module": "shared-compendium",
       "type": "Item"
     },
-	{
+    {
       "name": "visonia-background",
       "system": "dnd5e",
       "label": "Visonia Background",
@@ -38,7 +54,7 @@
       "module": "shared-compendium",
       "type": "Item"
     },
-	{
+    {
       "name": "enlightened-races",
       "system": "dnd5e",
       "label": "Enlightened Races",
@@ -46,7 +62,7 @@
       "module": "shared-compendium",
       "type": "Item"
     },
-	{
+    {
       "name": "enlightened-traits",
       "system": "dnd5e",
       "label": "Enlightened Traits",
@@ -54,7 +70,7 @@
       "module": "shared-compendium",
       "type": "Item"
     },
-	{
+    {
       "name": "enlightened-classes",
       "system": "dnd5e",
       "label": "Enlightened Classes",
@@ -71,7 +87,34 @@
       "type": "Item"
     }
   ],
-  "url": "https://www.visonia.de",
-  "download": "https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.2/shared-compendium.zip",
-  "manifest": "https://github.com/DeliciousSeason/sharedcompendium/releases/download/v1.0.2/module.json"
+  "packFolders": [
+    {
+      "name": "Shared",
+      "sorting": "m",
+      "color": "#700099",
+      "packs": [
+        "monsters",
+        "spells",
+        "items"
+      ],
+      "folders": [
+        {
+          "name": "Homebrew",
+          "sorting": "m",
+          "color": "#560075",
+          "packs": [
+            "visonia-items",
+            "visonia-spells",
+            "visonia-background",
+            "enlightened-classes",
+            "enlightened-traits",
+            "enlightened-races"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/DeliciousSeason/shared-compendium",
+  "download": "https://github.com/DeliciousSeason/shared-compendium/releases/download/v1.0.3/shared-compendium.zip",
+  "manifest": "https://github.com/DeliciousSeason/shared-compendium/releases/download/v1.0.3/module.json"
 }

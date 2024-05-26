@@ -23,7 +23,7 @@ A Foundry VTT module to share Homebrew Data between worlds via compendia.
      - Locked:  
        ![locked-module](resources/images/locked-module.webp)
 - Option 2: Updating your `module.json` file:
-  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia`) and update the `module.json` file.
+  1. Go to the Module's installation folder within foundry (`~/Data/modules/shared-compendium`) and update the `module.json` file.
   2. Remove lines 68-69 (`download` and `manifest`) and save the file.
   3. Restart Foundry to reload the module.
 
@@ -45,7 +45,7 @@ For example:
       "system": "dnd5e",
       "label": "Monsters",
       "path": "./packs/monsters.db",
-      "module": "my-shared-compendia",
+      "module": "shared-compendium",
       "type": "Actor"
     },
     {
@@ -53,7 +53,7 @@ For example:
       "system": "dnd5e",
       "label": "My Custom Items",
       "path": "./packs/items.db",
-      "module": "my-shared-compendia",
+      "module": "shared-compendium",
       "type": "Item"
     }
   ]
